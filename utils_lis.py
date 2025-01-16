@@ -29,22 +29,35 @@ import statistics  # provides mean(), stdev() and more....
 # declare a boolean variable (has a value True or False)
 # TODO: Add another or replace this with your own boolean variable
 has_international_clients: bool = True
+is_locally_grown: bool = True
+is_organic: bool = True
+has_membership_discount = True
+has_return_options = True
+has_student_discount = True
 
 # declare an integer variable 
 # TODO: Add or replace this with your own integer variable
-years_in_operation: int = 10
+years_in_operation: int = 22
+years_in_global_operations = 5
 
 # declare a floating point variable
 # TODO: Add or replace this with your own floating point variable
-average_client_satisfaction: float = 4.7
+average_client_satisfaction: float = 4.9
+average_delivery_time: float = 4.4
+coffee_ bean_variety: float = 4.8
+customer_service_communication= 4.9
 
 # declare a list of strings
 # TODO: Add or replace this with your own list  
-skills_offered: list = ["Data Analysis", "Machine Learning", "Business Intelligence"]
+products_offered: list = ["Espresso Beans", "Flavor Syrup", "Organic Coffee"]
+available_merchandise: list = ["Coffee Cups", "Gift Cards", "T-Shirts"]
 
 # declare a list of numbers so we can illustrate statistics skills
 # TODO: Add or replace this with your own numeric list  
 client_satisfaction_scores: list = [4.8, 4.6, 4.9, 5.0, 4.7]
+client_delivery_scores: list = [4.9, 4.4, 5.0, 4.8]
+coffee_taste_score: list = [5.0, 4.8, 4.2, 4.6]
+customer_service_score: list = [4.9, 4.9, 5.0, 4.7, 5.0] 
 
 # Calculate basic statistics using built-in Python functions and the statistics module
 # TODO: Replace these variable names with the variable name of your own numeric list
