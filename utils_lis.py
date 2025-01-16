@@ -84,7 +84,7 @@ stdev_score: float = statistics.stdev(customer_service_score)
 # TODO: Modify the variables in the byline to use your variable names
 byline: str = f"""
 ---------------------------------------------------------
-Stellar Analytics: Delivering Professional Insights
+Blue Ridge Coffee: Delivering Coffee Worldwide
 ---------------------------------------------------------
 Has International Clients:  {has_international_clients}
 Years in Operation:         {years_in_operation}
