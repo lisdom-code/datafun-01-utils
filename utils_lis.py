@@ -65,6 +65,18 @@ min_score: float = min(client_satisfaction_scores)
 max_score: float = max(client_satisfaction_scores)  
 mean_score: float = statistics.mean(client_satisfaction_scores)  
 stdev_score: float = statistics.stdev(client_satisfaction_scores)
+min_score: float = min(client_delivery_scores)  
+max_score: float = max(client_delivery_scores)  
+mean_score: float = statistics.mean(client_delivery_scores)  
+stdev_score: float = statistics.stdev(client_delivery_scores)
+min_score: float = min(coffee_taste_score)  
+max_score: float = max(coffee_taste_score)  
+mean_score: float = statistics.mean(coffee_taste_score)  
+stdev_score: float = statistics.stdev(coffee_taste_score)
+min_score: float = min(customer_service_score)  
+max_score: float = max(customer_service_score)  
+mean_score: float = statistics.mean(customer_service_score)  
+stdev_score: float = statistics.stdev(customer_service_score)
 
 # Use a Python formatted string (f-string) to show information
 # TODO: Modify the text in the byline to fit your information
@@ -79,6 +91,9 @@ years_in_global_operations: {years_in_global_operations}
 Products Offered:           {products_offered}
 Available Merchandise:      {available_merchandise}       
 Client Satisfaction Scores: {client_satisfaction_scores}
+Client Delivery Scores:     {client_delivery_scores}
+Coffee Taste Score:         {coffee_taste_score}
+Customer Service Score:     {customer_service_score}
 Minimum Satisfaction Score: {min_score}
 Maximum Satisfaction Score: {max_score}
 Mean Satisfaction Score: {mean_score:.2f}
