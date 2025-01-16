@@ -44,7 +44,7 @@ years_in_global_operations = 5
 # TODO: Add or replace this with your own floating point variable
 average_client_satisfaction: float = 4.9
 average_delivery_time: float = 4.4
-coffee_ bean_variety: float = 4.8
+coffee_bean_variety: float = 4.8
 customer_service_communication= 4.9
 
 # declare a list of strings
@@ -75,7 +75,9 @@ Stellar Analytics: Delivering Professional Insights
 ---------------------------------------------------------
 Has International Clients:  {has_international_clients}
 Years in Operation:         {years_in_operation}
-Skills Offered:             {skills_offered}
+years_in_global_operations: {years_in_global_operations}
+Products Offered:           {products_offered}
+Available Merchandise:      {available_merchandise}       
 Client Satisfaction Scores: {client_satisfaction_scores}
 Minimum Satisfaction Score: {min_score}
 Maximum Satisfaction Score: {max_score}
