@@ -3,9 +3,10 @@ Module: utils_lis
 
 Purpose: Reusable Module for My Analytics Projects
 
-Description: This module provides a byline for my spring semester 
-analytics projects. When we work hard to write useful code, we want it to be reusable.
-A good byline could be used in every Python analytics project we do.
+Description: This module provides a byline for my spring 2025 semester
+analytics projects. The purpose is to create and get comfortable with code.
+We want our code to be reusable. A good byline can be used in every Python 
+analytics project we do this semester. 
 
 Author: Lisete Sax
 
